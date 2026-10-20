@@ -83,7 +83,7 @@ body{
     margin-top: 119px;
     background: url('images/map-blur.png');
     background-repeat: repeat-y;
-     background-size cover;
+     background-size: 100%
 }
 
 #content{
@@ -187,4 +187,8 @@ table{
 }
 td{
       border-top: 1px solid #131313;
+}
+img{ 
+     width: 100%;
+     display: block;
 }
